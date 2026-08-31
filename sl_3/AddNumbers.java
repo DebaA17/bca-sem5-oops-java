@@ -8,5 +8,6 @@ public class AddNumbers {
         System.out.print("Enter second number: ");
         int b = sc.nextInt();
         System.out.println("Sum: " + (a + b));
+        sc.close();
     }
 }
