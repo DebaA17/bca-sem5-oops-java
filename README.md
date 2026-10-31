@@ -10,7 +10,6 @@
 
 ---
 
-Repository for the laboratory exercises and programs of the **Object-Oriented Programming with Java** course.
+Repository for the laboratory exercises and programs of the **Object-Oriented Programming with Java** subject.
 
 </div>
-
