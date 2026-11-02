@@ -1,20 +1,20 @@
 import java.util.Scanner;
 
-class Addition {
-    Addition(int a, int b) {
-        System.out.println("Sum of 2 ints = " + (a + b));
-    }
-
-    Addition(int a, int b, int c) {
-        System.out.println("Sum of 3 ints = " + (a + b + c));
-    }
-
-    Addition(double a, double b) {
-        System.out.println("Sum of 2 doubles = " + (a + b));
-    }
-}
-
 public class ConstructorOverload {
+    static class Addition {
+        Addition(int a, int b) {
+            System.out.println("Sum of 2 ints = " + (a + b));
+        }
+
+        Addition(int a, int b, int c) {
+            System.out.println("Sum of 3 ints = " + (a + b + c));
+        }
+
+        Addition(double a, double b) {
+            System.out.println("Sum of 2 doubles = " + (a + b));
+        }
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
