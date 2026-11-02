@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-class students {
-    String name;
-    int roll_no;
-}
-
 public class Student {
+    static class students {
+        String name;
+        int roll_no;
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
